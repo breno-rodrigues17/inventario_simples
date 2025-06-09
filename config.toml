@@ -1,0 +1,12 @@
+[theme]
+primaryColor = "#0077cc"               # Azul Utech
+backgroundColor = "#f5f8fa"            # Fundo claro suave
+secondaryBackgroundColor = "#e9f0f7"   # Fundo da sidebar
+textColor = "#0a2540"                  # Azul escuro para texto
+font = "sans serif"
+
+[server]
+headless = true
+enableCORS = false
+port = 8501
+
