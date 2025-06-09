@@ -33,11 +33,11 @@ def limpar_dados():
 
 # Início da interface
 st.set_page_config(page_title="Inventário", layout="centered")
-st.title("📦 Inventário Simples com Gráfico e Exportação")
+st.title("📦 Inventário Utech")
 df = carregar_dados()
 
 # --- BARRA LATERAL ---
-st.sidebar.title("🔧 Navegação")
+st.sidebar.title("🔧 Menu")
 pagina = st.sidebar.radio("Ir para", ["Registrar", "Visualizar", "Exportar", "⚠️ Limpar Dados"])
 
 # --- Página: Registrar ---
